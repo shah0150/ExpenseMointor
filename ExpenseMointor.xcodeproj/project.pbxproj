@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB9282722B1E79DE006AD2BA /* ExpenseMointor Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = EB9282712B1E79DE006AD2BA /* ExpenseMointor Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EB9282772B1E79DE006AD2BA /* ExpenseMointorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9282762B1E79DE006AD2BA /* ExpenseMointorApp.swift */; };
+		EB9282792B1E79DE006AD2BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9282782B1E79DE006AD2BA /* ContentView.swift */; };
+		EB92827B2B1E79DF006AD2BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB92827A2B1E79DF006AD2BA /* Assets.xcassets */; };
+		EB92827E2B1E79DF006AD2BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB92827D2B1E79DF006AD2BA /* Preview Assets.xcassets */; };
+		EB9282892B1E7A1F006AD2BA /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9282882B1E7A1F006AD2BA /* Expense.swift */; };
+		EB92828B2B1E7AA3006AD2BA /* ExpenseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB92828A2B1E7AA3006AD2BA /* ExpenseViewModel.swift */; };
+		EB92828D2B1E7D11006AD2BA /* AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB92828C2B1E7D11006AD2BA /* AddExpenseView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB9282732B1E79DE006AD2BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB9282652B1E79DE006AD2BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB9282702B1E79DE006AD2BA;
+			remoteInfo = "ExpenseMointor Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EB9282842B1E79DF006AD2BA /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				EB9282722B1E79DE006AD2BA /* ExpenseMointor Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EB92826B2B1E79DE006AD2BA /* ExpenseMointor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseMointor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9282712B1E79DE006AD2BA /* ExpenseMointor Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ExpenseMointor Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9282762B1E79DE006AD2BA /* ExpenseMointorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseMointorApp.swift; sourceTree = "<group>"; };
+		EB9282782B1E79DE006AD2BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EB92827A2B1E79DF006AD2BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB92827D2B1E79DF006AD2BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB9282882B1E7A1F006AD2BA /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		EB92828A2B1E7AA3006AD2BA /* ExpenseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseViewModel.swift; sourceTree = "<group>"; };
+		EB92828C2B1E7D11006AD2BA /* AddExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB92826E2B1E79DE006AD2BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB9282642B1E79DE006AD2BA = {
+			isa = PBXGroup;
+			children = (
+				EB9282752B1E79DE006AD2BA /* ExpenseMointor Watch App */,
+				EB92826C2B1E79DE006AD2BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB92826C2B1E79DE006AD2BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB92826B2B1E79DE006AD2BA /* ExpenseMointor.app */,
+				EB9282712B1E79DE006AD2BA /* ExpenseMointor Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB9282752B1E79DE006AD2BA /* ExpenseMointor Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				EB9282762B1E79DE006AD2BA /* ExpenseMointorApp.swift */,
+				EB9282782B1E79DE006AD2BA /* ContentView.swift */,
+				EB92827A2B1E79DF006AD2BA /* Assets.xcassets */,
+				EB92827C2B1E79DF006AD2BA /* Preview Content */,
+				EB9282882B1E7A1F006AD2BA /* Expense.swift */,
+				EB92828A2B1E7AA3006AD2BA /* ExpenseViewModel.swift */,
+				EB92828C2B1E7D11006AD2BA /* AddExpenseView.swift */,
+			);
+			path = "ExpenseMointor Watch App";
+			sourceTree = "<group>";
+		};
+		EB92827C2B1E79DF006AD2BA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EB92827D2B1E79DF006AD2BA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB92826A2B1E79DE006AD2BA /* ExpenseMointor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB9282852B1E79DF006AD2BA /* Build configuration list for PBXNativeTarget "ExpenseMointor" */;
+			buildPhases = (
+				EB9282692B1E79DE006AD2BA /* Resources */,
+				EB9282842B1E79DF006AD2BA /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB9282742B1E79DE006AD2BA /* PBXTargetDependency */,
+			);
+			name = ExpenseMointor;
+			productName = ExpenseMointor;
+			productReference = EB92826B2B1E79DE006AD2BA /* ExpenseMointor.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		EB9282702B1E79DE006AD2BA /* ExpenseMointor Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB9282812B1E79DF006AD2BA /* Build configuration list for PBXNativeTarget "ExpenseMointor Watch App" */;
+			buildPhases = (
+				EB92826D2B1E79DE006AD2BA /* Sources */,
+				EB92826E2B1E79DE006AD2BA /* Frameworks */,
+				EB92826F2B1E79DE006AD2BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ExpenseMointor Watch App";
+			productName = "ExpenseMointor Watch App";
+			productReference = EB9282712B1E79DE006AD2BA /* ExpenseMointor Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB9282652B1E79DE006AD2BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EB92826A2B1E79DE006AD2BA = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					EB9282702B1E79DE006AD2BA = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = EB9282682B1E79DE006AD2BA /* Build configuration list for PBXProject "ExpenseMointor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB9282642B1E79DE006AD2BA;
+			productRefGroup = EB92826C2B1E79DE006AD2BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB92826A2B1E79DE006AD2BA /* ExpenseMointor */,
+				EB9282702B1E79DE006AD2BA /* ExpenseMointor Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB9282692B1E79DE006AD2BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB92826F2B1E79DE006AD2BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB92827E2B1E79DF006AD2BA /* Preview Assets.xcassets in Resources */,
+				EB92827B2B1E79DF006AD2BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB92826D2B1E79DE006AD2BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9282892B1E7A1F006AD2BA /* Expense.swift in Sources */,
+				EB92828B2B1E7AA3006AD2BA /* ExpenseViewModel.swift in Sources */,
+				EB92828D2B1E7D11006AD2BA /* AddExpenseView.swift in Sources */,
+				EB9282792B1E79DE006AD2BA /* ContentView.swift in Sources */,
+				EB9282772B1E79DE006AD2BA /* ExpenseMointorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB9282742B1E79DE006AD2BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB9282702B1E79DE006AD2BA /* ExpenseMointor Watch App */;
+			targetProxy = EB9282732B1E79DE006AD2BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EB92827F2B1E79DF006AD2BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB9282802B1E79DF006AD2BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		EB9282822B1E79DF006AD2BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ExpenseMointor Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = V94L67MHG8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ExpenseMointor;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaha.ExpenseMointor.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		EB9282832B1E79DF006AD2BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ExpenseMointor Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = V94L67MHG8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ExpenseMointor;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaha.ExpenseMointor.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		EB9282862B1E79DF006AD2BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V94L67MHG8;
+				INFOPLIST_KEY_CFBundleDisplayName = ExpenseMointor;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaha.ExpenseMointor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EB9282872B1E79DF006AD2BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V94L67MHG8;
+				INFOPLIST_KEY_CFBundleDisplayName = ExpenseMointor;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaha.ExpenseMointor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB9282682B1E79DE006AD2BA /* Build configuration list for PBXProject "ExpenseMointor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB92827F2B1E79DF006AD2BA /* Debug */,
+				EB9282802B1E79DF006AD2BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB9282812B1E79DF006AD2BA /* Build configuration list for PBXNativeTarget "ExpenseMointor Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9282822B1E79DF006AD2BA /* Debug */,
+				EB9282832B1E79DF006AD2BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB9282852B1E79DF006AD2BA /* Build configuration list for PBXNativeTarget "ExpenseMointor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9282862B1E79DF006AD2BA /* Debug */,
+				EB9282872B1E79DF006AD2BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB9282652B1E79DE006AD2BA /* Project object */;
+}
